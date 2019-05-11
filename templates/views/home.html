@@ -1,0 +1,22 @@
+{% extends 'layout/base.html' %}
+{% load static %}
+{% block title %}Home{% endblock %} 
+
+{% block content %}
+<div class="row" style="margin-top:6em">
+    <div class="col-3">
+        <!-- {% block profilepart %} -->
+        {% include 'layout/side-profile.html' %}
+        <!-- {% endblock %} -->
+    </div>
+    <div class="ml-1 col">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam assumenda adipisci consequuntur, illo voluptatum! Et id, culpa ducimus mollitia eius quos molestias, ea quis, praesentium similique voluptas assumenda dolores eaque!
+    </div>
+    <div class="ml-1 col-3">
+        jobs card
+    </div>
+</div>
+{% endblock %}
+
+{% block script %}
+{% endblock %}
